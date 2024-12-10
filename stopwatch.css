@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: verdana,Geneva,Tahoma,sans-serif;
+}
+body{
+    background-color:#c3e0e5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   flex-direction: column;
+
+}
+.stopwatch{
+    background-color: #000c66;
+      padding: 20px  24px;
+      border-radius:15px ;
+      border-color: white;
+      height: 100px;
+      width: 400px;
+      box-shadow: 4px 4px 10px #75e6da; 
+}
+.timerdisplay{
+    font-size: 80px ;
+    font-weight:600;
+    }
+.buttons{
+    margin-top:20px ;
+
+}
+.btn{
+    font-size: 20px;
+    background-color: none;
+      color: white;
+       background-color: aqua;
+       padding: 12px 24px;
+       margin-inline: 12px ;
+       border-radius: 10px;
+       cursor: pointer;
+       margin-left: 20px;
+
+}
+/* .stopwatch:hover{
+
+    box-shadow: 5px 5px 15px rgb(0,0,0);
+} */
+#stop:hover{
+    box-shadow: 4px 4px 10px red;
+}
+
+#start:hover{
+    box-shadow: 4px 4px 10px green;
+}
+
+#reset:hover{
+    box-shadow: 4px 4px 10px blue;
+}
+.layout{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    box-shadow: 5px 5px 15px #05445e;
+    border-radius: 30px;
+}
